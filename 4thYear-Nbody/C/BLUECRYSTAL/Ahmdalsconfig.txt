@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=16
+#PBS -l walltime=1:00:00
+cd $PBS_O_WORKDIR
+export OMP_NUM_THREADS=16
+
+./Gravity_me_par_full 100 100 1
+./Gravity_me_par_full 100 125 1
+./Gravity_me_par_full 100 150 1
+./Gravity_me_par_full 100 175 1
+./Gravity_me_par_full 100 200 1
+./Gravity_me_par_full 100 225 1
+./Gravity_me_par_full 100 250 1
+./Gravity_me_par_full 100 275 1
+./Gravity_me_par_full 100 300 1
+./Gravity_me_par_full 100 325 1
+./Gravity_me_par_full 100 350 1
+./Gravity_me_par_full 100 375 1
+./Gravity_me_par_full 100 400 1
+./Gravity_me_par_full 100 450 1
+./Gravity_me_par_full 100 500 1
+./Gravity_me_par_full 100 550 1

@@ -1,0 +1,56 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=16
+#PBS -l walltime=12:00:00
+cd $PBS_O_WORKDIR
+export OMP_NUM_THREADS=16
+
+./Gravity_me_lin 150 200
+./Gravity_me_lin 160 200
+./Gravity_me_lin 170 200
+./Gravity_me_lin 180 200
+./Gravity_me_lin 190 200
+./Gravity_me_lin 200 200
+./Gravity_me_lin 210 200
+./Gravity_me_lin 220 200
+./Gravity_me_lin 230 200
+./Gravity_me_lin 240 200
+./Gravity_me_lin 250 200
+./Gravity_me_lin 260 200
+./Gravity_me_lin 270 200
+./Gravity_me_lin 280 200
+./Gravity_me_lin 290 200
+./Gravity_me_lin 310 200
+./Gravity_me_lin 320 200
+./Gravity_me_lin 330 200
+./Gravity_me_lin 340 200
+./Gravity_me_lin 350 200
+./Gravity_me_lin 360 200
+./Gravity_me_lin 370 200
+./Gravity_me_lin 380 200
+./Gravity_me_lin 390 200
+./Gravity_me_lin 400 200
+./Gravity_me_lin 410 200
+./Gravity_me_lin 420 200
+./Gravity_me_lin 430 200
+./Gravity_me_lin 440 200
+./Gravity_me_lin 450 200
+./Gravity_me_lin 460 200
+./Gravity_me_lin 470 200
+./Gravity_me_lin 480 200
+./Gravity_me_lin 490 200
+./Gravity_me_lin 500 200
+./Gravity_me_lin 510 200
+./Gravity_me_lin 520 200
+./Gravity_me_lin 530 200
+./Gravity_me_lin 540 200
+./Gravity_me_lin 550 200
+./Gravity_me_lin 560 200
+./Gravity_me_lin 570 200
+./Gravity_me_lin 580 200
+./Gravity_me_lin 590 200
+./Gravity_me_lin 600 200
+./Gravity_me_lin 610 200
+./Gravity_me_lin 620 200
+./Gravity_me_lin 630 200
+./Gravity_me_lin 640 200
+./Gravity_me_lin 650 200 

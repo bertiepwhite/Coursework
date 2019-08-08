@@ -1,0 +1,5 @@
+gcc Gravity_sim_lin.c -o Gravity_sim -ffast-math -lm -Wall -g -fwrapv -O3 -fPIC -DNDEBUG
+
+
+gcc Gravity_sim_par.c -o Gravity_sim -ffast-math -lm -Wall -g -fwrapv -O3 -fPIC -DNDEBUG -fopenmp
+
