@@ -1,0 +1,15 @@
+% Encoding: UTF-8
+
+@Article{Okunev2005,
+  author      = {Pavel Okunev and Charles R. Johnson},
+  title       = {Necessary And Sufficient Conditions For Existence of the LU Factorization of an Arbitrary Matrix},
+  abstract    = {If $A$ is an n-by-n matrix over a field $F$ ($A\in M_{n}(F)$), then $A$ is said to ``have an LU factorization'' if there exists a lower triangular matrix $L\in M_{n}(F)$ and an upper triangular matrix $U\in M_{n}(F)$ such that $$A=LU.$$ We give necessary and sufficient conditions for LU factorability of a matrix. Also simple algorithm for computing an LU factorization is given. It is an extension of the Gaussian elimination algorithm to the case of not necessarily invertible matrices. We consider possibilities to factors a matrix that does not have an LU factorization as the product of an ``almost lower triangular'' matrix and an ``almost upper triangular'' matrix. There are many ways to formalize what almost means. We consider some of them and derive necessary and sufficient conditions. Also simple algorithms for computing of an ``almost LU factorization'' are given.},
+  date        = {2005-06-19},
+  eprint      = {math/0506382v1},
+  eprintclass = {math.NA},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/math/0506382v1:PDF},
+  keywords    = {math.NA, math.GM},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
